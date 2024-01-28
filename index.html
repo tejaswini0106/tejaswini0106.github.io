@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>My website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="style.css">
+    <title>Tejaswini - Personal Website</title>
 </head>
-<body bgcolor="lavender">
-<header>
-<h1>Tejaswini
-<font color="navy">
-</font>
-</h1>
-<nav>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-<a href="#myscores">My Scores</a>
-</nav>
-<p>Welcome to my personal website!</p>
-</header>
-<section id="about">
-<h2>About Me</h2>
-<p>My name is M.R.Tejaswini. I am currently pursuing B.Tech CSE in VIT Chennai</p>
-</section>
-<section id="contact">
-<h2>Contact Me</h2>
-<a href="mailto:tejaswini0106@gmail.com">Send email to me</a></p>
-  <a href="tel:+918056240066">+91 8056240066</a>
-</section>
-<section id="myscores">
-<h2>My scores</h2>
-<table border=1 bordercolor=black>
-<tr>
-<th>Semester</th>
-<th>CGPA</th>
-</tr>
-<tr>
-<td>Fall 22-23</td>
-<td>9.55</td>
-</tr>
-<tr>
-<td>Winter 22-23</td>
-<td>9.37</td>
-</tr>
-<tr>
-<td>Fall 23-24</td>
-<td>9.47</td>
-</tr>
-</table>
-</section>
-<section>
-<h2>External Links</h2>
-<p>Check out my GitHub profile: <a href="https://github.com/tejaswini0106" target="_blank">GitHub</a></p>
-</section>
-<section>
-<h2>University contact</h2>
-<img src="vit.jpeg" alt="VIT">
-</section>
-<footer>
-<a href="https://chennai.vit.ac.in/" target="_blank">VIT Webpage</a>
-<p>&copy; 2024 VIT. All rights reserved.</p>
-</footer>
+<body>
+  <header>
+    <h2>Welcome to my website!</h2><pre>
+      <h2><div id="l1"><a href="#">About</a></div>    <div class="dropdown">Courses<div class="dropdown-content"><p>DBMS</p><p>STS</p><p>CAO</p><p>OS</p><p>Fog and edge</p><p>Prob and stat</p><p>Web Prog</p></div></div>     <button class="button" onclick="alert('Have a great day!')">Special message</button></h2>
+    </pre>
+  </header>
+  <div id="container">
+    <div id="left-frame" class="frame">
+      <h2>About Me</h2>
+        <p>I'm Tejaswini, currently pursuing 2nd year in B.Tech CSE at VIT Chennai. I love reading books, especially fiction and thrillers. I love watching sitcoms and shows of the comedy genre. And of course, I love coding and aspire to become a back end developver</p>
+    </div>
+
+    <div id="center-frame" class="frame">
+      <h2>My scores</h2>
+	      <table border=1 bordercolor=black>
+	      <tr>
+	        <th>Semester</th>
+	        <th>CGPA</th>
+	      </tr>
+	      <tr>
+	        <td>Fall 22-23</td>
+	        <td>9.55</td>
+	      </tr>
+	      <tr>
+	        <td>Winter 22-23</td>
+	        <td>9.37</td>
+	        </tr>
+	      <tr>
+	        <td>Fall 23-24</td>
+	        <td>9.47</td>
+	      </tr>
+	      </table>
+    </div>
+
+    <div id="right-frame" class="frame">
+      <h2>Contact Me</h2>
+        <div id="l2"><a href="mailto:tejaswini0106@gmail.com">Send an email to me</a></p>
+  	    <a href="tel:+918056240066">+91 8056240066</a></div>
+    </div>
+    </div>
+
+    <footer>
+        <div id="l1"><a href="https://chennai.vit.ac.in" target="_blank">University contact</a></div>
+        &copy; 2024. All Rights Reserved.
+    </footer>
 </body>
 </html>
