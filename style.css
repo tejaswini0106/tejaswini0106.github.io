@@ -100,7 +100,6 @@ nav li {
   display: block;
 }
 footer {
-    position: fixed;
     text-align: center;
     padding: 20px;
     background-color:green;
