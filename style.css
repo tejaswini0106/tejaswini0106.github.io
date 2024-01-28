@@ -1,0 +1,96 @@
+body {
+    font-family: "Trirong", serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color:green;
+    color:white;
+}
+#l1 a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#l2 a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#l1 a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#l2 a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#splmsg{
+  text-align: right;
+}
+.frame {
+    flex: 1;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.button{
+  background-color: transparent;
+  border: none;
+  font-family: "Trirong", serif;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-style: bold;
+  text-decoration: underline;
+}
+.dropdown {
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: black;
+}
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content p:hover {
+  background-color: gray; 
+  color: white;
+  padding: 7px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:green;
+    color:white;
+}
